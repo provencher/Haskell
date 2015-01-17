@@ -1,13 +1,3 @@
-{-
-ASSIGNMENT #3 
-COMP348
-Eric Provencher
-6543731
--}
-
-
-
-
 {- # OPTIONS_GHC -XFlexibleInstances #-}
 
 {-
@@ -18,10 +8,6 @@ words ("apple") or fragments ("ppl").  To make the program slightly
 more realistic, the tree instance must also be able to return multiple
 definitions of the same word.
 
-
-
-
--- May be a good idea to import prelude as P --> use unadultered (P. ==) for example
 -}
 
 module Main where
