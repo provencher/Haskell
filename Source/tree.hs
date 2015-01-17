@@ -8,25 +8,7 @@ kmax = 5
 sizes = [3,7,15,31]  -- tree sizes of trees you will create
 
 data Tree = Empty | Tree Integer Tree Tree
-{-
-make :: Integer -> Integer -> Tree  -- turn contiguous sequence j..k into tree
-make j k
-  | ...
 
-  | ...
-
-    where ...
--}
-{-
-end :: [a] -> a
-end []     = []
-end [a]    = [a]
-end (a:as) = last as
-
---from Data.List
-ini :: (Ord a) => [a] -> [a]
-ini as = [a | a <- as, a /= (end as)]
--}
 
 middle :: [a] -> [a]
 middle l@(_:_:_:_) = middle $ tail $ init l
