@@ -10,13 +10,3 @@ quickSort s@(a:as) =
 	    big   = [b | b<-s, b > a]
 	in quickSort small ++ [a] ++ quickSort big     
 
-mergeSort :: (Ord a) => [a] -> [a]
-mergeSort [] = []
---mergeSort s@(a:as) =
-
-
-partition :: [a] -> [[a]]
-partition [a]    = [[a]]
-partition (a:as) = [a] : partition as
-
-
