@@ -1,5 +1,7 @@
 # Haskell
 Haskell Exercises and modules
+For compilation, please create a project with https://www.fpcomplete.com/new-project
+
 
 - Eggs.hs
 Combinations program that lists all legal combinations given restrictions and a set of ingredients
